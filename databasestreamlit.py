@@ -630,7 +630,7 @@ class MyClass:
 
     def schedule_tasks(self):
         # Χρονοπρογραμματισμός εκτέλεσης των μεθόδων κάθε 10 λεπτά
-        schedule.every(1).minutes.do(self.execute_methods)
+        schedule.every(10).minutes.do(self.execute_methods)
 
         # Άλλες πιθανές εργασίες χρονοπρογραμματισμού μπορούν να προστεθούν εδώ
 
