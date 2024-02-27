@@ -13,7 +13,7 @@ plotly
 seaborn
 folium
 streamlit-folium
-
+openpyxl
 
 
 
